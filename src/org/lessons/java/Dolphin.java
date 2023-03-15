@@ -1,20 +1,21 @@
 package org.lessons.java;
 
-public class Dog extends Animal implements Swimmer{
+public class Dolphin extends Animal implements Swimmer{
 
     private final String sound;
 
     private final String food;
 
-    public Dog(String name) {
+
+    public Dolphin(String name) {
         super(name);
-        this.sound = "Woof";
-        this.food = "kibble";
+        this.sound = "Eek";
+        this.food = "fish";
     }
 
     @Override
     public String toString() {
-        return "Dog{" + super.toString() + '\'' +
+        return "Dolphin{" + super.toString() + '\'' +
                 "sound='" + sound + '\'' +
                 ", food='" + food + '\'' +
                 '}';
@@ -27,10 +28,10 @@ public class Dog extends Animal implements Swimmer{
 
     @Override
     public void eat() {
-        System.out.println("I'm eating "+ food);
-    }
+        System.out.println("I'm eating "+ food);    }
 
     @Override
     public void swim() {
-        System.out.println("My name is " + getName() + ", " + sound + "!" + " I'm swimming!");    }
+        System.out.println("My name is " + getName() + ", " + sound + "!" + " I'm swimming!");
+    }
 }
