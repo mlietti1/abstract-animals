@@ -31,6 +31,6 @@ public class Sparrow extends Animal implements Flier {
 
     @Override
     public void fly() {
-        System.out.println("My name is " + getName() + ", " + sound + "!" + " I'm flying!");
+        System.out.println("My name is " + getName() + ". " + sound + "!" + " I'm flying!");
     }
 }

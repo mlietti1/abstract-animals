@@ -32,6 +32,6 @@ public class Dolphin extends Animal implements Swimmer{
 
     @Override
     public void swim() {
-        System.out.println("My name is " + getName() + ", " + sound + "!" + " I'm swimming!");
+        System.out.println("My name is " + getName() + ". " + sound + "!" + " I'm swimming!");
     }
 }
